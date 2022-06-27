@@ -5,7 +5,10 @@ body,
 }
 
 body {
-  background-color: hsl(180deg, 25%, 92%);
+  background-image: linear-gradient(180deg,
+      hsl(180deg, 25%, 92%) 0%,
+      hsl(180deg, 25%, 92%) 60%,
+      hsl(189deg, 18%, 86%) 40%);
   margin: 0;
 }
 
